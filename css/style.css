@@ -1,0 +1,40 @@
+/* Debasis Panda : debasis-panda@live.com */
+.tool-tip{
+    position:absolute;
+    padding:5px 10px;
+    background:#f1f1f1;
+    border: 2px solid #7F7F7F;
+    display:none;
+    background: #5F5F5F;
+    color:#f1f1f1;
+    z-index:99999;
+}
+.tool-tip:after, .tool-tip:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.tool-tip:after {
+	border-color: rgba(86, 86, 89, 0);
+	border-top-color: #5F5F5F;
+	border-width: 7px;
+	margin-left: -7px;
+}
+.tool-tip:before {
+	border-color: rgba(171, 245, 245, 0);
+	border-top-color: #7F7F7F;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.tool-tip p{
+   margin:0;
+}
+.mytooltip{
+    padding:10px;
+}
