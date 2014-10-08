@@ -1,0 +1,6 @@
+<!-- Debasis Panda : debasis-panda@live.com -->
+<p title="this is a tooltip" class="mytooltip">Hover on me.</p>
+
+<div style="margin-top:40px">
+<p title="this is a new tooltip" class="mytooltip">Hi hover on me again.</p>    
+</div>
